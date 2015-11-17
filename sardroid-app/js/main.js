@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     try {
       // create connection to the ID server
-      peer = new Peer(callerId, {host: SERVER_IP});
+      peer = new Peer(callerId, {host: SERVER_IP, port: SERVER_PORT, path: '/peerjs'});
 
       // hack to get around the fact that if a server connection cannot
       // be established, the peer and its socket property both still have
