@@ -1,0 +1,6 @@
+{
+  "name":  "echo",
+  "class": "org.legroup.sample.Echo",
+  "jsapi": "sardroid-extension.js",
+  "permissions": []
+}

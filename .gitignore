@@ -1,0 +1,9 @@
+.idea/
+ivy*.jar
+apache-ivy*
+sardroid-extension-src/.ant-targets-build.xml
+sardroid-extension-src/build
+sardroid-extension-src/lib
+sardroid-extension-src/tools/apache-ivy*
+sardroid-extension-src/tools/ivy*.jar
+sardroid-extension-src/sardroid-extension
