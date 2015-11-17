@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Sardroid!</title>
-    <link rel="stylesheet" href="assets/base.css">
+    <title>Sardroid</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Sardoid test</h1>
-</header>
+<div id="credentials">
+    <p>
+        Connect as: <input type="text" id="caller-id" size="15">
+        <button id="connect">Connect</button>
+    </p>
+</div>
 
+<div id="dialler" data-active="false">
+    <p>
+        Make call to:
+        <input type="select" id="recipient-id">
+        </input>
+        <button id="dial">Call</button>
+    </p>
+
+    <hr>
+
+    <p><strong>REMOTE:</strong></p>
+    <video id="remote-video" autoplay></video>
+
+    <hr>
+
+    <p><strong>LOCAL:</strong></p>
+    <video id="local-video" autoplay muted></video>
+</div>
+
+<hr>
+
+<div id="messages">
+</div>
+
+<script src="lib/js/peer.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

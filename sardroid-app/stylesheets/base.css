@@ -1,0 +1,11 @@
+#credentials, #dialler, #messages {
+clear: both;
+}
+
+#remote-video {
+ max-width: 300px;
+}
+
+#local-video {
+ max-width: 150px;
+}
