@@ -34,5 +34,8 @@ echo "********* BUILDING ANDROID APK FILES..."
 cd $XWALK_DIR
 python make_apk.py --fullscreen --enable-remote-debugging --manifest=$APP_SRC/manifest.json --extensions=$EXTENSION_SRC/sardroid-extension/ --package=org.legroup.sample
 
+# Install app on phone
+adb install -r $EXTENSION_SRC/lib/crosswalk-15.44.375.0/Sample_0.0.1_arm.apk
+
 # back to where we started
 cd $PROJECT_DIR
