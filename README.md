@@ -1,6 +1,6 @@
 # Sardroid
 
-Currently, this is the bare minimum for getting a crosswalk app running with native Java extensions.
+Currently, this is the bare minimum for getting a crosswalk app running with native Java extensions. Build by running build.sh!
 
 More to come, hopefully soon!
 
